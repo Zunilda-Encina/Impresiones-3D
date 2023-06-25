@@ -1,0 +1,10 @@
+header¨{
+    background-image: url(a);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    border: 1px solid red;
+}
