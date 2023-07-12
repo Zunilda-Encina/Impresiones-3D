@@ -61,7 +61,6 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular',
         'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,8 +68,15 @@ footer {
     list-style-type: none;
 }
 
-.social-icons {
-
-    align-items: center;
+ul.social-icons {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-inline: 20px;
+    justify-content: space-between
+}
+ul li{
+    margin-right: 5px;
+    margin-left: 15px;
 }
