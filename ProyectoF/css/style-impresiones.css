@@ -1,0 +1,30 @@
+body{
+    background: #FF5F6D; 
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+    
+}
+footer{
+    background-color: rgb(156, 248, 157);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    list-style-type: none;
+}
+ul.social-icons {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-inline: 20px;
+    justify-content: space-between
+}
+ul li{
+    margin-right: 5px;
+    margin-left: 15px;
+}
